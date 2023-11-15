@@ -1,0 +1,47 @@
+---
+title: "Summation"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Summation}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Summation)
+```
+
+## How to use this package
+
+Load your data. The data needs to be in integer format as seen below.
+```{r}
+data(x)
+list <- x
+x
+```
+
+How to get the population variance.
+```{r}
+varpop(list)
+```
+
+How to get the sample variance.
+```{r}
+varsam(list)
+```
+
+How to create your own summation. 
+
+You need to input your first index and last index in the following format: first index:last index 
+
+Next you type in the equation. You must use a variable in your equation. The variable has to be i and no other letter. The equation needs to be in quotations. 
+```{r}
+summ(1:10, '(i^2)/2')
+```
