@@ -2,9 +2,6 @@ Package: Summation
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-<<<<<<< HEAD
-    person("Kaily", "Rosal", , "kailyrosal@gmail.com", role = c("aut", "cre"))
-=======
     person("Kaily", "Rosal", , "kailyrosal@gmail.com", role = c("aut", "cre"))
 >>>>>>> ba03e033fd0b82a2e7f4cc12e86090162a161976
 Description: What the package does (one paragraph).
